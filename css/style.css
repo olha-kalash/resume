@@ -1,0 +1,145 @@
+html,
+body {
+    font-size  : 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin     : 0;
+    text-align : center;
+}
+
+
+.container {
+    max-width: 970px;
+    margin   : 0 auto;
+}
+
+.nav {
+    padding      : 28px 0;
+    border-bottom: 1px solid #828282;
+}
+
+ul {
+    margin      : 0;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    margin : 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color          : #828282;
+    ;
+}
+
+a:hover {
+    color: #070707;
+
+
+}
+
+.my_photo {
+    display  : block;
+    max-width: 100%;
+}
+
+.name {
+    font-size    : 48px;
+    margin-top   : 12px;
+    margin-bottom: 50px;
+    padding      : 6px;
+    text-align   : left;
+}
+
+.about_me_section {
+    background: #F6F6F6;
+}
+
+.about_me_article p:first-of-type {
+    margin-top: 50px;
+}
+
+.section_title {
+    font-size    : 34px;
+    margin-bottom: 20px;
+    margin-top   : 0;
+
+}
+
+.about_me_article {
+    padding-bottom: 70px;
+}
+
+.about_me_article p {
+    margin-bottom: 30px;
+    line-height  : 25px;
+}
+
+.container_padding_big {
+    padding-top: 100px;
+}
+
+.div_skills {
+    display       : block;
+    font-size     : 0;
+    padding       : 0;
+    margin-top    : 50px;
+    padding-bottom: 101px;
+}
+
+.skill_block {
+    display     : inline-block;
+    width       : 170px;
+    margin-right: 96px;
+
+}
+
+.skill_block:last-child {
+    margin-right: 0px;
+}
+
+.program_name {
+    width      : 90px;
+    margin     : 25px auto;
+    font-weight: 700;
+    font-size  : 14px;
+    line-height: 19px;
+    color      : #828282;
+}
+
+.stars {
+    width     : 100%;
+    margin-top: 60px;
+}
+
+.star {
+    display     : inline-block;
+    width       : 26px;
+    margin-right: 10px;
+}
+
+.star:last-child {
+    margin-right: 0px;
+}
+
+.portfolio_img {
+    display: block;
+}
+
+.portfolio_img_padding {
+    margin-top: 50px;
+}
+
+
+.portfolio_description {
+    width     : 200px;
+    margin    : auto;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.container_padding_small {
+    padding-top: 70px;
+}
